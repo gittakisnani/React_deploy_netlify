@@ -11,3 +11,155 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+header {
+  background-color: aqua;
+  padding: .5rem 1rem;
+  color: white;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: black;
+  padding: .5rem 1rem;
+  color: white;
+}
+
+footer {
+  background-color: aqua;
+  color: white;
+  text-align: center;
+  padding: .5rem;
+  width: 100%;
+}
+
+main {
+  padding: .5rem;
+  height: fit-content;
+  min-height: 66.75vh ;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: #eee;
+  color: black;
+  padding: .5rem;
+  border-radius: .2rem;
+  margin-top: .5rem;
+}
+
+.blog-title {
+  padding-bottom: .4rem;
+}
+
+.blog-date {
+  margin-bottom: .5rem;
+  font-size: .8rem;
+}
+
+.blog-text {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons li {
+  border-radius: unset;
+}
+
+.buttons li:focus,
+.buttons li:hover {
+  background-color: black;
+}
+
+.buttons li:focus a,
+.buttons li:hover a {
+  color: white;
+}
+
+form {
+  padding: .5rem;
+}
+
+input {
+  padding: .5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.newPost-Title {
+  border: 1px solid black;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  width: 300px;
+  display: block;
+}
+
+textarea {
+  width: 300px;
+  resize: none;
+  border: 1px solid black;
+  outline: none;
+  padding: .5rem;
+  height: 200px;
+}
+
+button.submit {
+  background-color: black;
+  color: white;
+  display: block;
+  padding: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: .5rem;
+  width: 300px;
+}
+
+.delete {
+  padding: .5rem;
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  width: 300px;
+  cursor: pointer;
+}
+.update {
+  display: block;
+  padding: .5rem;
+  background-color: #d1d1d1;
+  color: black;
+  cursor: pointer;
+  width: 300px;
+  margin-top: .6rem;
+  border: none;
+  outline: none;
+}
