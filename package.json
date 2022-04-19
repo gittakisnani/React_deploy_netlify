@@ -1,8 +1,8 @@
 {
   "name": "taki",
   "version": "0.1.0",
-  "homepage": "https://medwebdev.github.io/react_deploy_gh",
-  "private": false,
+  "homepage": "https://gittakisnani.github.io/react_deploy_gh",
+  "private": true,
   "dependencies": {
     "axios": "^0.26.1",
     "colornames": "^1.1.1",
